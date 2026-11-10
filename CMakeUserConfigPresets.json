@@ -1,0 +1,16 @@
+{
+  "version": 5,
+  "configurePresets": [
+    {
+      "name": "config",
+      "hidden": true
+    },
+    {
+      "name": "msvc-wine-config",
+      "hidden": true,
+      "cacheVariables": {
+        "MSVC_WINE_ROOT": "$env{HOME}/my_msvc/opt/msvc"
+      }
+    }
+  ]
+}
